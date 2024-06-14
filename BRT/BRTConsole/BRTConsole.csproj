@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>BRTConsole.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adapters\Adapters.csproj" />
+    <ProjectReference Include="..\BRT\BRT.csproj" />
+    <ProjectReference Include="..\MathNetFacade\MathNetFacade.csproj" />
+    <ProjectReference Include="..\Model3D\Model3D.csproj" />
+  </ItemGroup>
+
+</Project>

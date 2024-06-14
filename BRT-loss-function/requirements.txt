@@ -1,0 +1,6 @@
+matplotlib
+open3d
+mpl-tools
+trimesh
+scipy
+numpy
