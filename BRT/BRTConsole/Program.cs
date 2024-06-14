@@ -13,8 +13,8 @@ namespace BRTConsole
         {
             Console.WriteLine("Hello World!");
             string inputObjPath = @"..\..\..\..\Resources\teapot.obj";
-            bool useSavedBrtData = true;
-            bool exportAllLevels = true;
+            bool useSavedBrtData = false;
+            bool exportAllLevels = false;
 
             // Read obj file
             ObjData objData = ObjReader.ReadObj(inputObjPath);
